@@ -5,21 +5,28 @@
           box-sizing: border-box;
 }
 
-/*h1{
-  font-size: 2.5rem;
-  font-family: 'Montserrat';
+
+h1{
+  font-size: 5rem;
+    font－family:"SimSun";
   font-weight: normal;
-  color: #444;
+  color: #F6BB08;
   text-align: center;
   margin: 2rem 0;
-}*/
+}
 .header{
     text-align: center;
     color: #9C9C9C;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-body{background-color: #24252d}
+body{
+    background-color: #24252d;
+    background:url("../jpg/2e0ed8e8fc9b4e4c00fcbd1b5cf5e98e.jpeg") no-repeat;
+    background-size: 100% 100%;
+
+
+}
 .wrapper{
   width: 90%;
   margin: 0 auto;
@@ -182,4 +189,270 @@ body{background-color: #24252d}
     width: 100%;
     margin: 0 0 2rem 0;
   }
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+
+.video-com {
+    font-size: 20px;
+    width: 50%;
+}
+
+.video-com-text {
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.video-com-text, .video-com i {
+    display: inline-block;
+    line-height: 35px;
+    vertical-align: middle
+}
+
+.video-com i {
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+
+@font-face {
+    font-family: hkfont;
+    font-display: auto;
+    src: url(https://hk.bdstatic.com/static/haokan-pc/fonts/iconfont.c754ed93.eot);
+    src: url(https://hk.bdstatic.com/static/haokan-pc/fonts/iconfont.c754ed93.eot#iefix) format("embedded-opentype"), url(https://hk.bdstatic.com/static/haokan-pc/fonts/iconfont.f1a61673.woff) format("woff"), url(https://hk.bdstatic.com/static/haokan-pc/fonts/iconfont.7d7d6acc.ttf) format("truetype"), url(https://hk.bdstatic.com/static/haokan-pc/imgtic/fonts7a0a99.svg#iconfont) format("svg")
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: hkfont;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-delete:before {
+    content: "\e606"
+}
+
+.icon-wechat:before {
+    content: "\e607"
+}
+
+.icon-weibo:before {
+    content: "\e608"
+}
+
+.icon-download:before {
+    content: "\e609"
+}
+
+.icon-upload:before {
+    content: "\e60a"
+}
+
+.icon-thumb:before {
+    content: "\e60b"
+}
+
+.icon-video:before {
+    content: "\e60c"
+}
+
+.icon-time:before {
+    content: "\e60d"
+}
+
+.icon-rightarrow:before {
+    content: "\e60e"
+}
+
+.icon-thumbempty:before {
+    content: "\e60f"
+}
+
+.icon-search:before {
+    content: "\e610"
+}
+
+.icon-quit:before {
+    content: "\e611"
+}
+
+.icon-personalcenter:before {
+    content: "\e612"
+}
+
+.icon-qq:before {
+    content: "\e613"
+}
+
+.icon-introduce:before {
+    content: "\e614"
+}
+
+.icon-message:before {
+    content: "\e615"
+}
+
+.icon-eye:before {
+    content: "\e616"
+}
+
+.icon-identity:before {
+    content: "\e617"
+}
+
+.icon-history:before {
+    content: "\e618"
+}
+
+.icon-emoji:before {
+    content: "\e619"
+}
+
+.icon-comment:before {
+    content: "\e61a"
+}
+
+.icon-downarrow:before {
+    content: "\e61b"
+}
+
+.icon-collect:before {
+    content: "\e61c"
+}
+
+.icon-zhuanlan:before {
+    content: "\e61e"
+}
+
+.icon-more:before {
+    content: "\e61f"
+}
+
+.icon-uncollect:before {
+    content: "\e622"
+}
+
+.icon-collected:before {
+    content: "\e623"
+}
+
+.icon-guanzhu:before {
+    content: "\e624"
+}
+
+.icon-arrow:before {
+    content: "\e62b"
+}
+
+.icon-up:before {
+    content: "\e62c"
+}
+
+.icon-creator:before {
+    content: "\e62d"
+}
+
+.icon-update:before {
+    content: "\e62e"
+}
+
+.icon-chart:before {
+    content: "\e62f"
+}
+
+.icon-down:before {
+    content: "\e630"
+}
+
+.icon-hold:before {
+    content: "\e631"
+}
+
+.icon-1:before {
+    content: "\e632"
+}
+
+.icon-7:before {
+    content: "\e633"
+}
+
+.icon-more1:before {
+    content: "\e634"
+}
+
+.icon-3:before {
+    content: "\e635"
+}
+
+.icon-share:before {
+    content: "\e636"
+}
+
+.icon-change:before {
+    content: "\e637"
+}
+
+.icon-4:before {
+    content: "\e638"
+}
+
+.icon-phone:before {
+    content: "\e639"
+}
+
+.icon-8:before {
+    content: "\e63a"
+}
+
+.icon-collect1:before {
+    content: "\e63b"
+}
+
+.icon-9:before {
+    content: "\e63c"
+}
+
+.icon-6:before {
+    content: "\e63d"
+}
+
+.icon-10:before {
+    content: "\e63e"
+}
+
+.icon-5:before {
+    content: "\e63f"
+}
+
+.icon-comment1:before {
+    content: "\e640"
+}
+
+.icon-2:before {
+    content: "\e641"
+}
+
+.icon-like:before {
+    content: "\e642"
+}
+
+.icon-hot:before {
+    content: "\e643"
 }
